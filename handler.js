@@ -7,7 +7,7 @@ module.exports.logger = async (event) => {
     body: JSON.stringify(
       {
         message: 'Serverless CI/CD Deo',
-        version: "v2.0",
+        version: "v3.0",
         timestamp: moment().unix(),
       },
       null,
